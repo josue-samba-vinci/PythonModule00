@@ -1,4 +1,4 @@
-def helper(n, day):
+def helper(n: int, day: int):
     if (day <= n):
         print('Day', day)
         helper(n, day + 1)
